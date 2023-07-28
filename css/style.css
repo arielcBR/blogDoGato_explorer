@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+    font-size: 62.5%;
+}
+
+body{
+    background: #FFF;
+    color: #121214;
+    font-family: 'Mulish', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.container{
+    display: grid;
+    place-content: center;
+}
+
+header{
+    background-color: #065E7C;
+    height: 7.2rem;
+    padding: 1.2rem 2.8rem;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2.5rem;
+}
+
+header .logo{
+    height: 4rem;
+    width: 4rem;
+}
+
+header .searchInput{
+    background: #387E96;
+    border: none;
+    border-radius: 4px;
+    padding: 1.2rem 1.5rem;
+    width: 24rem;
+}
+
+header .searchInput::placeholder{
+    color: #FFF;
+    font-size: 1.6rem;
+    font-weight: 600;
+    font-style: normal;
+}
+
+footer{
+    background: #387E96;
+    color: #FFF;
+    text-align: center;
+    font-weight: 600;
+    width: 100%;
+}
